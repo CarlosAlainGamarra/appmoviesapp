@@ -12,4 +12,4 @@ Css:
 Css grid/
 Css flex
 
-
+![movies](https://user-images.githubusercontent.com/69878700/175612540-e0462210-1b95-4747-a2e1-4e0313a66074.jpg)

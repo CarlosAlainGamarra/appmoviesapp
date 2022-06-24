@@ -1,0 +1,39 @@
+.search_container {
+  display: flex;
+  justify-content: right;
+  position: static;
+  padding-right: 15px;
+}
+
+.search_box {
+  position: relative; 
+}
+
+.search_input {
+  border-radius: 5px;
+  width: 200px;  
+  height: 20px;
+  padding: 5px 25px 5px 7px;
+  border-color: black;
+  background-color: rgb(208, 230, 230);
+  outline: none;
+}
+
+.search_input:focus {
+  background-color: rgb(255, 255, 255);   
+}
+
+.search_button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.search_button:focus {
+  transform: scale(1.2);
+}

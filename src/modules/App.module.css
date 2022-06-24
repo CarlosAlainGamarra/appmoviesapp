@@ -1,0 +1,42 @@
+.header {
+
+}
+
+.header_title {
+  text-align: center;
+  padding-bottom: 10px;
+  color: white;
+  font-family: 'Monoton';
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  animation: neon1 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #41d5e9,
+      0 0 70px #41d5e9, 0 0 80px #41d5e9, 0 0 100px #41d5e9, 0 0 150px #41d5e9;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #41d5e9,
+      0 0 35px #41d5e9, 0 0 40px #41d5e9, 0 0 50px #41d5e9, 0 0 75px #41d5e9;
+  }
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_icon {
+  color: rgb(255, 255, 255);
+  padding-left: 18px;
+  transition: 0.3s;  
+}
+
+.home_icon:hover {
+  transform: scale(1.2);
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
